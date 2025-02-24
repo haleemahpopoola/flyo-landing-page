@@ -17,9 +17,9 @@
         color: hsl(238, 22%, 44%);
     }
     nav{
-        max-width: 1440px;
-        min-width: 1440px;
         display: flex;
+        max-width: 1440px;
+        min-width: 1200px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -73,6 +73,8 @@
     .first{
         padding: 4rem;
         display: flex;
+        max-width: 1440px;
+        min-width: 1200px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -139,7 +141,7 @@
         position: relative;
         background-color: hsl(240, 75%, 98%);
         max-width: 1440px;
-        min-width: 1440px;
+        min-width: 1200px;
         display: flex;
         flex-direction: row;
         padding: 4rem;
@@ -176,7 +178,7 @@
     }
     .third{
         max-width: 1440px;
-        min-width: 1440px;
+        min-width: 1200px;
         background-color: hsl(238, 22%, 44%);
         color: white;
         padding: 4rem;
@@ -204,7 +206,7 @@
     footer{
         padding: 4rem;
         max-width: 1440px;
-        min-width: 1440px;
+        min-width: 1200px;
         background-color: hsl(243, 87%, 12%);
         color: white;
         display: flex;
